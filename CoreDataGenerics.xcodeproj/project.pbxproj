@@ -13,6 +13,17 @@
 		5FBC0E691E2751DE00E8499F /* CoreDataGenerics.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5FBC0E671E2751DE00E8499F /* CoreDataGenerics.xcdatamodeld */; };
 		5FBC0E6B1E2751DE00E8499F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FBC0E6A1E2751DE00E8499F /* Assets.xcassets */; };
 		5FBC0E6E1E2751DE00E8499F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FBC0E6C1E2751DE00E8499F /* LaunchScreen.storyboard */; };
+		5FBC0E7F1E27589E00E8499F /* UserData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBC0E7D1E27589E00E8499F /* UserData+CoreDataClass.swift */; };
+		5FBC0E801E27589E00E8499F /* UserData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBC0E7E1E27589E00E8499F /* UserData+CoreDataProperties.swift */; };
+		5FBC0E821E2758E500E8499F /* ManagedObjectConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBC0E811E2758E500E8499F /* ManagedObjectConvertible.swift */; };
+		5FBC0E841E27598000E8499F /* ManagedObjectProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBC0E831E27598000E8499F /* ManagedObjectProtocol.swift */; };
+		5FBC0E861E278CA600E8499F /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBC0E851E278CA600E8499F /* DataController.swift */; };
+		5FBC0E881E278CF700E8499F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBC0E871E278CF700E8499F /* User.swift */; };
+		5FBC0E8A1E278F2F00E8499F /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBC0E891E278F2F00E8499F /* Data.swift */; };
+		5FBC0E8C1E278FEA00E8499F /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBC0E8B1E278FEA00E8499F /* Result.swift */; };
+		5FBC0E8E1E27906000E8499F /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBC0E8D1E27906000E8499F /* CoreDataStack.swift */; };
+		5FBC0E901E28068500E8499F /* DataVariety.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBC0E8F1E28068500E8499F /* DataVariety.swift */; };
+		5FBC0E921E280C2F00E8499F /* DataControllerVariety.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBC0E911E280C2F00E8499F /* DataControllerVariety.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +35,17 @@
 		5FBC0E6A1E2751DE00E8499F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5FBC0E6D1E2751DE00E8499F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5FBC0E6F1E2751DE00E8499F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FBC0E7D1E27589E00E8499F /* UserData+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserData+CoreDataClass.swift"; sourceTree = "<group>"; };
+		5FBC0E7E1E27589E00E8499F /* UserData+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserData+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		5FBC0E811E2758E500E8499F /* ManagedObjectConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagedObjectConvertible.swift; sourceTree = "<group>"; };
+		5FBC0E831E27598000E8499F /* ManagedObjectProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagedObjectProtocol.swift; sourceTree = "<group>"; };
+		5FBC0E851E278CA600E8499F /* DataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		5FBC0E871E278CF700E8499F /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		5FBC0E891E278F2F00E8499F /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		5FBC0E8B1E278FEA00E8499F /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		5FBC0E8D1E27906000E8499F /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		5FBC0E8F1E28068500E8499F /* DataVariety.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataVariety.swift; sourceTree = "<group>"; };
+		5FBC0E911E280C2F00E8499F /* DataControllerVariety.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataControllerVariety.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +78,58 @@
 		5FBC0E5F1E2751DD00E8499F /* CoreDataGenerics */ = {
 			isa = PBXGroup;
 			children = (
-				5FBC0E601E2751DD00E8499F /* AppDelegate.swift */,
-				5FBC0E621E2751DD00E8499F /* ViewController.swift */,
-				5FBC0E641E2751DE00E8499F /* Main.storyboard */,
-				5FBC0E6A1E2751DE00E8499F /* Assets.xcassets */,
-				5FBC0E6C1E2751DE00E8499F /* LaunchScreen.storyboard */,
-				5FBC0E6F1E2751DE00E8499F /* Info.plist */,
-				5FBC0E671E2751DE00E8499F /* CoreDataGenerics.xcdatamodeld */,
+				5FBC0E751E27530900E8499F /* Controller */,
+				5FBC0E781E27539A00E8499F /* Model */,
+				5FBC0E771E27535A00E8499F /* Core Data */,
+				5FBC0E761E27531D00E8499F /* Supporting Files */,
 			);
 			path = CoreDataGenerics;
+			sourceTree = "<group>";
+		};
+		5FBC0E751E27530900E8499F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5FBC0E621E2751DD00E8499F /* ViewController.swift */,
+				5FBC0E851E278CA600E8499F /* DataController.swift */,
+				5FBC0E911E280C2F00E8499F /* DataControllerVariety.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		5FBC0E761E27531D00E8499F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5FBC0E6A1E2751DE00E8499F /* Assets.xcassets */,
+				5FBC0E6C1E2751DE00E8499F /* LaunchScreen.storyboard */,
+				5FBC0E641E2751DE00E8499F /* Main.storyboard */,
+				5FBC0E6F1E2751DE00E8499F /* Info.plist */,
+				5FBC0E601E2751DD00E8499F /* AppDelegate.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5FBC0E771E27535A00E8499F /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				5FBC0E891E278F2F00E8499F /* Data.swift */,
+				5FBC0E8F1E28068500E8499F /* DataVariety.swift */,
+				5FBC0E7D1E27589E00E8499F /* UserData+CoreDataClass.swift */,
+				5FBC0E7E1E27589E00E8499F /* UserData+CoreDataProperties.swift */,
+				5FBC0E671E2751DE00E8499F /* CoreDataGenerics.xcdatamodeld */,
+				5FBC0E871E278CF700E8499F /* User.swift */,
+				5FBC0E8D1E27906000E8499F /* CoreDataStack.swift */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
+		5FBC0E781E27539A00E8499F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5FBC0E8B1E278FEA00E8499F /* Result.swift */,
+				5FBC0E811E2758E500E8499F /* ManagedObjectConvertible.swift */,
+				5FBC0E831E27598000E8499F /* ManagedObjectProtocol.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,9 +205,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FBC0E7F1E27589E00E8499F /* UserData+CoreDataClass.swift in Sources */,
+				5FBC0E8A1E278F2F00E8499F /* Data.swift in Sources */,
+				5FBC0E921E280C2F00E8499F /* DataControllerVariety.swift in Sources */,
+				5FBC0E841E27598000E8499F /* ManagedObjectProtocol.swift in Sources */,
+				5FBC0E8E1E27906000E8499F /* CoreDataStack.swift in Sources */,
+				5FBC0E901E28068500E8499F /* DataVariety.swift in Sources */,
+				5FBC0E801E27589E00E8499F /* UserData+CoreDataProperties.swift in Sources */,
 				5FBC0E631E2751DD00E8499F /* ViewController.swift in Sources */,
 				5FBC0E691E2751DE00E8499F /* CoreDataGenerics.xcdatamodeld in Sources */,
+				5FBC0E881E278CF700E8499F /* User.swift in Sources */,
+				5FBC0E861E278CA600E8499F /* DataController.swift in Sources */,
+				5FBC0E821E2758E500E8499F /* ManagedObjectConvertible.swift in Sources */,
 				5FBC0E611E2751DD00E8499F /* AppDelegate.swift in Sources */,
+				5FBC0E8C1E278FEA00E8499F /* Result.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

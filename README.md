@@ -1,0 +1,1 @@
+If you ensuring immutability of your models, you are probably wrapping your CoreData's NSManagedObject subclasses into structs of some sort and use them in upper layers of your app. This code will introduce two approaches that tap into the power of Swift generics and protocols.
